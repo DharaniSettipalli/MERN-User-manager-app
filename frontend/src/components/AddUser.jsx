@@ -12,7 +12,7 @@ const AddUser = () => {
     const [error, setError] = useState('');
     const alphabetRegex = /^[a-zA-Z\s]*$/;
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z]+\.[a-z]+$/i // A common, basic regex for email validations
-    const url = 'http://localhost:8000/user/'
+    const url = 'https://mern-user-manager-app-api-backend.vercel.app/user/'
 
     const navigate = useNavigate()
 
