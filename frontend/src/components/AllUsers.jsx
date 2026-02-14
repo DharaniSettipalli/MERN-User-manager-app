@@ -6,7 +6,7 @@ import { toast, ToastContainer } from 'react-toastify';
 
 const AllUsers = () => {
     const [users, setUsers] = useState([])
-    const url = 'https://mern-user-manager-app-r66coe45h-dharanisettipallis-projects.vercel.app/user'
+    const url = 'https://mern-user-manager-app-1.onrender.com/user'
     const navigate = useNavigate()
 
     const fetchUsers = async () => {
